@@ -1,7 +1,6 @@
 apply plugin: 'java'
+apply plugin: 'ru.d10xa.allure'
 apply plugin: 'base'
-
-
 
 defaultTasks 'clean', '1.5.4'
 buildscript {
@@ -23,7 +22,6 @@ repositories {
 configurations {
     agent
 }
-
 
 dependencies {
     compile 'com.slickqa:testng:7.0.0-7'
