@@ -102,3 +102,25 @@
 11926 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationContact
 6590 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testCreationContact with parameteres []
 11540 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationContact
+8969 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testContactDeletion with parameteres []
+11485 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testContactDeletion
+11500 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testContactEmail with parameteres []
+13046 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testContactEmail
+13048 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testContactPhone with parameteres []
+15030 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testContactPhone
+15036 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testCreationContact with parameteres []
+17494 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationContact
+17495 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testBadCreationGroup with parameteres []
+25444 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testBadCreationGroup
+25518 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testCreationGroup with parameteres [GroupData{id='2147483647', name='test 0'}]
+30387 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationGroup
+30388 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testCreationGroup with parameteres [GroupData{id='2147483647', name='test 1'}]
+36092 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationGroup
+36094 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testCreationGroup with parameteres [GroupData{id='2147483647', name='test 2'}]
+41285 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationGroup
+41286 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testGroupDeletion with parameteres []
+45881 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testGroupDeletion
+45882 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testGroupModification with parameteres []
+51389 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testGroupModification
+51390 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testModificationContact with parameteres []
+56700 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testModificationContact

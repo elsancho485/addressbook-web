@@ -1,5 +1,16 @@
 apply plugin: 'java'
+apply plugin: 'ru.d10xa.allure'
 apply plugin: 'base'
+
+defaultTasks 'clean', '1.5.4'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "ru.d10xa:gradle-allure-plugin:0.5.5"
+    }
+}
 
 
 
@@ -19,8 +30,34 @@ dependencies {
     compile 'com.beust:jcommander:1.72'
     compile 'com.thoughtworks.xstream:xstream:1.4.11.1'
     compile 'com.google.code.gson:gson:2.8.5'
+    testCompile "ru.yandex.qatools.allure:allure-testng-adaptor:1.5.4"
     compile 'ch.qos.logback:logback-classic:1.1.5'
 }
+
+allure {
+    aspectjweaver = true
+    testNG = true
+    junit=false
+    clean = true
+    allureResultsDir = "$buildDir/allure-results"
+    allureReportDir = "$buildDir/allure-report"
+
+}
+
+test.doFirst {
+    jvmArgs "-javaagent:${configurations.agent.singleFile}"
+}
+
+test {
+    useTestNG()
+    systemProperty 'allure.results.directory', 'allure-results'
+}
+
+task generateAllure(type: Exec) {
+    commandLine "allure", "generate allure-results"
+}
+tasks.withType(Test)*.finalizedBy allureReport
+
 
 task testGroup(type: Test) {
     useTestNG {
