@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.ptf.addressbook.tests.GroupDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-13T12:15:14" hostname="MacMini-Tkachenko.local" time="3.675">
+  <properties/>
+  <testcase name="testGroupDeletion" classname="ru.stqa.ptf.addressbook.tests.GroupDeletionTest" time="3.675"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
