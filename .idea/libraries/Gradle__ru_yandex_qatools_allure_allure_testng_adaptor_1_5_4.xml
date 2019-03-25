@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.yandex.qatools.allure:allure-testng-adaptor:1.5.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.allure/allure-testng-adaptor/1.5.4/c832508c02aa6514c542ff147599a5eea53adfb5/allure-testng-adaptor-1.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.allure/allure-testng-adaptor/1.5.4/6635cdbd685f9129c23d0757167103d968db9db6/allure-testng-adaptor-1.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
