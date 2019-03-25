@@ -100,3 +100,5 @@
 2668 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationContact
 7241 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testCreationContact with parameteres []
 11926 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationContact
+6590 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Start test testCreationContact with parameteres []
+11540 [main] INFO  r.s.ptf.addressbook.tests.TestBase - Stop test testCreationContact
